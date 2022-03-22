@@ -32,11 +32,11 @@
 
 # core {{{1
 BLK                   38;5;68
-CAPABILITY            38;5;17
+CAPABILITY            38;5;5;1
 CHR                   38;5;113;1
-DIR                   38;5;30
+DIR                   38;5;75;1
 DOOR                  38;5;127
-EXEC                  38;5;208;1
+EXEC                  38;5;155
 FIFO                  38;5;126
 FILE                  0
 LINK                  target
@@ -146,7 +146,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .tsv                  38;5;78
 # Open document spreadsheet
 .ods                  38;5;112
-.xla                  38;5;76
+.xla                  38;5;139
 # Excel spreadsheet
 .xls                  38;5;112
 .xlsx                 38;5;112
@@ -384,16 +384,16 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .vbs                  38;5;81
 # 2}}}
 # Build stuff {{{2
-*Dockerfile           38;5;155
+*Dockerfile           38;5;139
 .dockerignore         38;5;240
-*Makefile             38;5;155
+*Makefile             38;5;139
 *MANIFEST             38;5;243
 *pm_to_blib           38;5;240
 # Functional Configuration
-.nix                  38;5;155
+.nix                  38;5;139
 .dhall                38;5;178
 # ruby rake
-.rake                 38;5;155
+.rake                 38;5;139
 # automake
 .am                   38;5;242
 .in                   38;5;242
@@ -678,7 +678,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .application          38;5;116
 .cue                  38;5;116
 .description          38;5;116
-.directory            38;5;116
+.directory            86;5;116
 .m3u                  38;5;116
 .m3u8                 38;5;116
 .md5                  38;5;116
