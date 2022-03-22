@@ -1,1 +1,3 @@
 test/*
+._zinit/
+c.zsh*
